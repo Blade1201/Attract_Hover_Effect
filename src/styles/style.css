@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: url("/src/image/bg.jpg") no-repeat center / cover;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+li:nth-child(1) button {
+    background: #F3FFBD;
+}
+
+li:nth-child(2) button {
+     background: #247BA0;
+}
+
+li:nth-child(3) button {
+     background: #FF1654;
+}
+
+button {
+    position: relative;
+    background: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid white;
+    color: white;
+    font-family: Verdana, serif;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 0;
+}
