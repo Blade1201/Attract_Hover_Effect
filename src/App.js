@@ -53,7 +53,7 @@ const App = () => {
         window.removeEventListener('mousemove', onMouseMove);
         window.removeEventListener('resize', calculatePosition);
       };
-    }, [calculatePosition, onMouseMove]);
+    }, []);
 
 
 
